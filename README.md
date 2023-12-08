@@ -1,4 +1,5 @@
 Summary
+
 The model used to classify the given images is Convolutional Neural Network (CNN). The model architecture consists of three convolutional layers with max-pooling, along with dropout layer and flattening layer. Here, the dropout layer contains the dropout rate of 0.2 which implies 20% of the input units will be dropped out during training. After that, dense layers are added to the model, two with ReLU activation function and the other layer with softmax activation which helps in multiclass classification. The sparse categorical crossentropy loss, accuracy and Adam optimizer is used to evaluate the model.
 Training process
 Data Loading and Preprocessing:
